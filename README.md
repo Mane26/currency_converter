@@ -13,9 +13,10 @@
 Python 3.11, Flask, requests, HTML, CSS.
 
 ### Инструкция для запуска:
+
 1. Скачать проект
    
-   $ git clone https://github.com/ApT3rn/currency_converter.git
+   ``` git clone https://github.com/ApT3rn/currency_converter.git ```
    
 2. Перейти в папку с проектом:
    
@@ -27,7 +28,7 @@ Python 3.11, Flask, requests, HTML, CSS.
    
 5. Перейти по пути и запустить виртуальное окружение:
    
-     $ cd env/Scripts
+   $ cd env/Scripts
    $ activate
 
 6. Загрузить необходимые зависимости, тут два варианта:
