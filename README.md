@@ -20,7 +20,5 @@ Python 3.11, Flask, requests, HTML, CSS.
 4. Перейти по пути: ``` cd env/Scripts ```
 5. Запустить виртуальное окружение: ``` activate ```
 6. Вернуться в папку проекта: ``` cd ../.. ```
-7. Загрузить необходимые зависимости, тут два варианта:
-   - ``` pip install -r requirements.txt ```
-   - ``` pipenv install ```
+7. Загрузить необходимые зависимости: ``` pip install -r requirements.txt ```
 8. Запустить приложение: ``` flask run ```
