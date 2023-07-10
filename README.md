@@ -20,7 +20,6 @@ Python 3.11, Flask, requests, HTML, CSS.
 2. Перейти в папку с проектом:
    
    $ cd currency_converter
-    $ source django_env/bin/activate
    
 4. Создать виртуальной окружение:
    
@@ -28,7 +27,7 @@ Python 3.11, Flask, requests, HTML, CSS.
    
 5. Перейти по пути и запустить виртуальное окружение:
    
-   $ cd env/Scripts
+     $ cd env/Scripts
    $ activate
 
 6. Загрузить необходимые зависимости, тут два варианта:
