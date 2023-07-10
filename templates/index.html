@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Exchange App
+{% endblock title %}
+
+{% block content %}
+        <div class="background-phone">
+            <div class="row">
+                <div class="text-center">
+                    <h2>Конвертер валюты</h2>
+                </div>
+                <form method="POST" action="">
+                    <ul class="form-style-1">
+                        <li>
+                            <label>Сумма</label>
+                            <input type="text" name="from_amount" class="field-long" placeholder="Введите сумму" {% if context.from_amount %} value="{{ context.from_amount }}" {% endif %}/>
+                        </li>
+                        <li>
+                            <label>Ваша валюта</label>
+                            <select name="from_curr" class="field-select">
+                            {% for curr in context.currencies %}
+                                <option value="{{ curr }}" {% if context.from_curr == curr %}selected{% endif %}>{{ curr }}</option>
+                            {% endfor %}
+                            </select>
+                        </li>
+                        <li>
+                            <label>Валюта обмена</label>
+                            <select name="to_curr" class="field-select">
+                            {% for curr in context.currencies %}
+                                <option value="{{ curr }}" {% if context.to_curr == curr %}selected{% endif %}>{{ curr }}</option>
+                            {% endfor %}
+                            </select>
+                        </li>
+                        <li>
+                            <button type="submit">Расчитать</button>
+                        </li>
+                    </ul>
+                </form>
+                {% if context.converted_amount %}
+                <div class="converted">
+                    <h2>{{ context.converted_amount }}</h2>
+                </div>
+                {% endif %}
+                {% if context.error %}
+                <div class="error">
+                    <h2>{{ context.error }}</h2>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+{% endblock %}
