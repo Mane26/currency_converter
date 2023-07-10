@@ -15,26 +15,27 @@ Python 3.11, Flask, requests, HTML, CSS.
 ### Инструкция для запуска:
 1. Скачать проект
    
-    $ git clone https://github.com/ApT3rn/currency_converter.git
+   $ git clone https://github.com/ApT3rn/currency_converter.git
    
 2. Перейти в папку с проектом:
    
    $ cd currency_converter
+    $ source django_env/bin/activate
    
-3. Создать виртуальной окружение:
+4. Создать виртуальной окружение:
    
    $ python -m venv env
    
-4. Перейти по пути и запустить виртуальное окружение:
+5. Перейти по пути и запустить виртуальное окружение:
    
    $ cd env/Scripts
    $ activate
 
-5. Загрузить необходимые зависимости, тут два варианта:
+6. Загрузить необходимые зависимости, тут два варианта:
     
    $ pip install -r requirements.txt
    $ pipenv install
    
-6. Запустить приложение:
+7. Запустить приложение:
     
    $ flask run
