@@ -15,7 +15,7 @@ Python 3.11, Flask, requests, HTML, CSS.
 ### Инструкция для запуска:
 1. Скачать проект
    
-   $ git clone https://github.com/ApT3rn/currency_converter.git
+    $ git clone https://github.com/ApT3rn/currency_converter.git
    
 2. Перейти в папку с проектом:
    
