@@ -20,22 +20,22 @@ Python 3.11, Flask, requests, HTML, CSS.
    
 2. Перейти в папку с проектом:
    
-   $ cd currency_converter
+   ``` cd currency_converter ```
    
 4. Создать виртуальной окружение:
    
-   $ python -m venv env
+   ``` python -m venv env ```
    
 5. Перейти по пути и запустить виртуальное окружение:
    
-   $ cd env/Scripts
-   $ activate
+   ``` cd env/Scripts ```
+   ``` activate ```
 
 6. Загрузить необходимые зависимости, тут два варианта:
     
-   $ pip install -r requirements.txt
-   $ pipenv install
+   ``` pip install -r requirements.txt ```
+   ``` pipenv install ```
    
 7. Запустить приложение:
     
-   $ flask run
+   ``` flask run ```
