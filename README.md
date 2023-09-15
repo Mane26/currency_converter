@@ -1,6 +1,6 @@
 ## Конвертер валюты
 
-![2023-07-10_22-01-35](https://github.com/ApT3rn/currency_converter_flask/assets/96689510/20e0d502-63c1-4580-a898-14c6dc81a704)
+![2023-07-10_22-01-35](https://github.com/Mane26/currency_converter_flask/assets/96689510/20e0d502-63c1-4580-a898-14c6dc81a704)
 <p align=center>Домашняя страница</p>
 <br>
 
@@ -10,19 +10,18 @@
 
 ### Стек:
 
-Python 3.11, Flask, requests, HTML, CSS.
+Python 3.10, Flask, requests, HTML, CSS.
 
 ### Инструкция для запуска:
 
 1. Скачайте проект:
    ```
-   git clone https://github.com/ApT3rn/currency_converter.git
+   git clone https://github.com/Mane26/currency_converter.git
    ```
 2. Создайте виртуальной окружение:
    ```
    python -m venv venv
-   cd venv/Scripts
-   activate
+   source venv/Scripts/activate 
    ```
 3. Загрузите необходимые зависимости:
     ```
@@ -32,3 +31,6 @@ Python 3.11, Flask, requests, HTML, CSS.
     ```
     python app.py
     ```
+
+
+##Python-разработчик Саркисян Мелине
